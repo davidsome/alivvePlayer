@@ -1,0 +1,29 @@
+{
+  "name": "alivvePlayer",
+  "version": "0.0.0",
+  "description": "'make your video clickable, interactive and alive'",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "video",
+    "interavtive",
+    "html",
+    "contetnplayer"
+  ],
+  "author": "Eisneim Terry<eisneim.com>",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "gulp-util": "~2.2.14",
+    "gulp": "~3.5.5",
+    "gulp-concat": "~2.1.7",
+    "gulp-uglify": "~0.2.1",
+    "gulp-ngmin": "~0.1.2",
+    "gulp-minify-html": "~0.1.1",
+    "gulp-angular-gettext": "~0.2.0",
+    "gulp-angular-templatecache": "~1.1.0"
+  }
+}

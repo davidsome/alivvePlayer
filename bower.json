@@ -1,0 +1,32 @@
+{
+  "name": "alivvePlayer",
+  "version": "0.0.0",
+  "authors": [
+    "Eisneim Terry <eisneim@gmail.com>"
+  ],
+  "description": "put html content inside video player,make your video clickable, interactve and alive!",
+  "keywords": [
+    "video",
+    "html",
+    "content",
+    "html5player",
+    "interactive"
+  ],
+  "license": "MIT",
+  "homepage": "http://eisneim.com/project/alivve",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "angular": "1.3",
+    "modernizr": "~2.7.2",
+    "requirejs": "~2.1.11",
+    "sass-bootstrap": "~3.0.2"
+  }
+}
