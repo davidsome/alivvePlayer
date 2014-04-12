@@ -30,6 +30,7 @@
     "sass-bootstrap": "~3.0.2",
     "snap.svg": "~0.2.0",
     "onScreen": "*",
-    "angular-bootstrap": "~0.10.0"
+    "angular-bootstrap": "~0.10.0",
+    "messenger": "~1.4.1"
   }
 }

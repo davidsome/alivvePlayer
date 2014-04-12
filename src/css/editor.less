@@ -1,0 +1,55 @@
+body{
+	height: 100%;
+	overflow: hidden;
+}
+#top-section{
+	// background-color: lighten(@darker_blue, 50%);
+}
+#video-preview{
+	width: 640px;
+	height: 360px;
+}
+
+
+#timelines{
+	color: #fff;
+	background-color: @darker_blue;
+	width: 100%;
+	overflow: scroll;
+	#tracks{
+		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3) inset;
+		padding: 5px;
+		width: 100%;
+		height: 100%;
+		
+		&>li{
+			display: block;
+			margin:5px 0;
+			width: 100%;
+		}
+	}
+	.track{
+		min-height: 50px;
+		min-width: 100px;
+		border-radius: 4px;
+		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+	}
+	.track.video{
+		background-color: lighten(@darker_blue, 20%);
+	}
+	.track.audio{
+		background-color: @light_coffee;
+	}
+	.track.text{
+		background-color: @dark_cyan;
+	}
+	.track.link{
+		background-color: @purple;
+	}
+	.track.image{
+		background-color: @green;
+	}
+	.track.custom{
+		background-color: @dark_pink;	
+	}
+}
